@@ -4,7 +4,7 @@ This is a fullstack application for sharing random ideas. It is a project in my 
 
 This app includes a Node.js/Express REST API that uses MongoDB for a database. The client-side is built with Webpack.
 
-<img src="assets/screen.png">
+<img src="assets/randomideas-app.png">
 
 ## Usage
 
@@ -52,7 +52,7 @@ The production build will be put into the `public` folder, which is the Express 
 
 ### Environment Variables
 
-Rename `.env-example` to `.env` and add your MongoDB URI to the `.env` file.
+Add your MongoDB URI to the `.env` file.
 
 ```
 MONGO_URI=your_mongodb_uri
