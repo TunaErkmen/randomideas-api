@@ -37,11 +37,11 @@ class IdeaList {
   async deleteIdea(ideaId) {
     try {
       //delete from server
-      const res = await ideasApi.deleteIdea(ideaId);
+      await ideasApi.deleteIdea(ideaId);
       //delete from DOM
       this._ideas = this._ideas.filter((idea) => {
         return idea._id !== ideaId;
-        this.getIdeas();
+        
     
       });
     } catch (error) {
